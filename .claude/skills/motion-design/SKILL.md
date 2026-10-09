@@ -1,9 +1,11 @@
 ---
 name: motion-design
-description: Taste rules for Remotion motion graphics — timing, easing, springs, typography, color, texture, and scene continuity, with concrete numbers. Use whenever you create, animate, retime, or polish a video, composition, scene, or transition in this repo.
+description: Taste rules for Remotion motion graphics — timing, easing, springs, typography, color, texture, and scene continuity, with concrete numbers. Use whenever you create, animate, retime, or polish a video, composition, scene, or transition in a claude-motion workspace.
 ---
 
 # Motion design
+
+Paths and commands here are relative to a claude-motion workspace. If the current directory isn't one, follow `motion-studio` first.
 
 Remotion teaches you the API. This file is the taste. Every number below comes from a shipped piece (`src/EffortVideo.tsx`); treat them as defaults you deviate from on purpose, not by accident.
 

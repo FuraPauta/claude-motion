@@ -1,0 +1,13 @@
+{
+  "name": "motion-kit",
+  "description": "Motion design toolkit for coding agents, packaged as a plugin.",
+  "owner": { "name": "FuraPauta" },
+  "plugins": [
+    {
+      "name": "motion-kit",
+      "source": "./",
+      "description": "Skills and tools to make motion graphics, sound and web-sim videos with Remotion from any project.",
+      "category": "design"
+    }
+  ]
+}

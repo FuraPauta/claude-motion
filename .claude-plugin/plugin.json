@@ -1,0 +1,11 @@
+{
+  "name": "motion-kit",
+  "displayName": "Motion Kit",
+  "version": "1.0.0",
+  "description": "Motion design toolkit for coding agents: taste rules with numbers, a visual self-review loop, a procedural sound engine synced to the timeline (Remotion), and web sims captured frame by frame to 60 fps video.",
+  "author": { "name": "claude-motion contributors" },
+  "repository": "https://github.com/FuraPauta/claude-motion",
+  "license": "MIT",
+  "keywords": ["remotion", "motion-design", "video", "sound-design", "three.js"],
+  "skills": ["./.claude/skills/"]
+}

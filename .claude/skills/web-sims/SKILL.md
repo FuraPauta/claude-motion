@@ -5,6 +5,8 @@ description: Build a simulation-style video (agents, particles, 3D machines, fly
 
 # Web sims
 
+Paths and commands here are relative to a claude-motion workspace. If the current directory isn't one, follow `motion-studio` first.
+
 Read `sims/README.md` first; it has the contract and every command.
 
 ## When to use this instead of Remotion

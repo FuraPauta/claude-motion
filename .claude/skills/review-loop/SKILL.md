@@ -5,6 +5,8 @@ description: Visual self-review loop for motion graphics — render a draft, bui
 
 # Review loop
 
+Paths and commands here are relative to a claude-motion workspace. If the current directory isn't one, follow `motion-studio` first.
+
 You can't watch the video, but you can look at frames. Never report a video as done without looking at contact sheets of the current render.
 
 ## Loop
