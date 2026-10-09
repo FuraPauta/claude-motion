@@ -1,9 +1,11 @@
 ---
 name: sound-design
-description: Procedural sound design with the sfx engine — writing a cue sheet against a video's timeline, which sound goes with which visual event, gain hierarchy, panning, musical key, automatic mastering to -14 LUFS, adding new generators, and verifying sync. Use when adding, changing or checking audio, SFX, music beds or loudness for any video in this repo.
+description: Procedural sound design with the sfx engine — writing a cue sheet against a video's timeline, which sound goes with which visual event, gain hierarchy, panning, musical key, automatic mastering to -14 LUFS, adding new generators, and verifying sync. Use when adding, changing or checking audio, SFX, music beds or loudness for any video in a claude-motion workspace.
 ---
 
 # Sound design
+
+Paths and commands here are relative to a claude-motion workspace. If the current directory isn't one, follow `motion-studio` first.
 
 Most AI-made motion graphics are silent. Sound is what makes a piece feel produced.
 

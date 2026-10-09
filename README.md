@@ -84,6 +84,14 @@ Make a 15-second 1080×1080 motion graphic announcing <your thing>.
 Follow AGENTS.md: storyboard first, then the timeline, review loop, sound.
 ```
 
+**Or install it as a plugin** and use the skills from any project (Claude Code, or Cowork in Claude Desktop):
+
+```text
+/plugin install motion-kit --marketplace FuraPauta/claude-motion
+```
+
+The plugin brings the five skills and the toolkit. Ask for a video anywhere and `motion-studio` sets up a workspace (`./motion` by default) from the plugin's own copy, installs dependencies, and runs the same flow. Skills appear as `motion-kit:motion-studio`, `motion-kit:motion-design` and so on.
+
 ## How the agent works
 
 ```

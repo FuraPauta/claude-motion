@@ -10,6 +10,9 @@ The skills in `.claude/skills/` are the core of this repo. Claude Code and Curso
 - `review-loop/SKILL.md`: how to look at your own renders and what to check. Mandatory before saying a video is done.
 - `sound-design/SKILL.md`: writing a cue sheet for the `sfx` engine, levels, mastering, adding generators.
 - `web-sims/SKILL.md`: simulations and 3D pieces built as one HTML page and captured frame by frame to 60 fps (`sims/`).
+- `motion-studio/SKILL.md`: entry point when the toolkit is installed as a plugin; creates a workspace outside this repo and routes to the skills above.
+
+The repo is also a Claude Code plugin (`.claude-plugin/`, name `motion-kit`) that ships these skills. When you add or rename a skill, check it with `claude plugin validate .`.
 
 ## Making a video
 
@@ -51,7 +54,8 @@ Requirements: Node 20+, Python 3, ffmpeg. If `/usr/bin/chromium` (or `$REMOTION_
 ## Layout
 
 ```
-.claude/skills/          the rules: motion-design, review-loop, sound-design
+.claude/skills/          the rules: motion-design, review-loop, sound-design, web-sims, motion-studio
+.claude-plugin/          plugin manifest and marketplace entry (motion-kit)
 sfx/                     sound engine: synth.py (generators), mix.py (placement, mastering), loudness.py
 sfx/cues/effort.py       example cue sheet
 scripts/sheet.mjs        contact sheets for visual review
